@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  @apply font-bold text-white;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+h2 {
+  @apply font-bold text-white;
+  line-height: 120%;
+  font-size: 32px;
+}
+
+h3 {
+  @apply font-bold text-white;
+  line-height: 120%;
+  font-size: 28px;
+}
+
+.subtitle-big,
+h4 {
+  @apply font-normal text-white;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.subtitle {
+  @apply font-normal text-white;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+p {
+  @apply font-thin text-white;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+small {
+  @apply font-thin text-white;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+code {
+  @apply bg-black px-2 py-0.5 rounded text-primary-100;
+}
+
+pre {
+  @apply bg-black text-sm px-4 py-2 rounded text-primary-100;
+}

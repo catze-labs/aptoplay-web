@@ -52,3 +52,7 @@ code {
 pre {
   @apply bg-black text-sm px-4 py-2 rounded text-primary-100;
 }
+
+a {
+  @apply cursor-pointer;
+}

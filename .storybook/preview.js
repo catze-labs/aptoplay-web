@@ -15,6 +15,14 @@ export const parameters = {
 
 addDecorator((storyFn) => (
   <RecoilRoot>
-    <>{storyFn()}</>
+    <div
+      style={{
+        backgroundColor: "#414141",
+        padding: 30,
+        margin: 0,
+      }}
+    >
+      {storyFn()}
+    </div>
   </RecoilRoot>
 ));

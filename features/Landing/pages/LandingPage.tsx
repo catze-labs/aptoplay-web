@@ -1,3 +1,4 @@
+import Container from "@/components/Container";
 import { NextPage } from "next";
 
 export function getServerSideProps() {
@@ -7,7 +8,11 @@ export function getServerSideProps() {
 }
 
 const LandingPage: NextPage = () => {
-  return <div>Landing Page</div>;
+  return (
+    <div>
+      <Container></Container>
+    </div>
+  );
 };
 
 export default LandingPage;

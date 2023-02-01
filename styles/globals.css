@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-gray-dark text-white;
+}
+
 h1 {
   @apply font-bold text-white;
   font-size: 40px;

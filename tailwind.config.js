@@ -11,6 +11,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      size: {},
       fontFamily: {
         sans: ["mundial", "sans-serif"],
         mono: ["DM Mono", "monospace"],

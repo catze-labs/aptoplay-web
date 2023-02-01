@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({
     as,
     {
       className: clsx([
-        "flex items-center justify-center w-full",
+        "flex items-center justify-center w-full disabled:cursor-not-allowed disabled:bg-gray",
         variant === "primary" &&
           `bg-primary-200 px-5 py-2.5 text-black hover:underline hover:underline-offset-4`,
         variant === "secondary" &&

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-css-tags */
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -16,6 +17,10 @@ export default function Document() {
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap"
           rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://highlightjs.org/static/demo/styles/github-dark.css"
         />
       </Head>
       <body>

@@ -46,11 +46,13 @@ small {
 }
 
 code {
+  font-family: "DM Mono", sans-serif !important;
   @apply bg-black px-2 py-0.5 rounded text-primary-100;
 }
 
 pre {
-  @apply bg-black text-sm px-4 py-2 rounded text-primary-100;
+  font-family: "DM Mono", sans-serif !important;
+  @apply bg-black text-sm text-primary-100;
 }
 
 a {

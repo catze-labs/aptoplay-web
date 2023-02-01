@@ -20,7 +20,7 @@ const TutorialPage: NextPage = () => {
 
   return (
     <Layout>
-      <div className="w-[440px] flex flex-col gap-6">
+      <div className="md:w-[440px] flex flex-col gap-6">
         <DocumentBox>{markdown || "Loading..."}</DocumentBox>
         <div className="flex justify-between">
           <Button

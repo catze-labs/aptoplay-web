@@ -58,3 +58,79 @@ pre {
 a {
   @apply cursor-pointer;
 }
+
+/**
+  * Markdown Documentation style
+  */
+
+.markdown-document h1 {
+  @apply mb-5;
+}
+
+.markdown-document h2 {
+  @apply mb-2 mt-8 border-b border-[rgba(255,255,255,0.2)] pb-2;
+}
+
+.markdown-document h3 {
+  @apply mb-2 mt-8;
+}
+
+.markdown-document p {
+  @apply mb-2 text-sm;
+}
+
+.markdown-document li {
+  @apply text-sm font-thin;
+}
+
+.markdown-document > ul {
+  @apply mb-2 text-white;
+  list-style-type: disc;
+}
+
+.markdown-document > ul > li > ul {
+  @apply text-white;
+  list-style-type: disc;
+}
+
+.markdown-document > ol {
+  @apply mb-2 text-white;
+  list-style-type: decimal;
+}
+
+.markdown-document > ol > li > ol {
+  @apply text-white;
+  list-style-type: decimal;
+}
+
+.markdown-document ul li {
+  @apply ml-5;
+}
+
+.markdown-document ol li {
+  @apply ml-4;
+}
+
+.markdown-document table {
+  @apply border-collapse border border-white my-2;
+}
+
+.markdown-document table th {
+  @apply border border-white text-white font-regular px-3 py-1;
+}
+
+.markdown-document table td {
+  @apply border border-white text-white font-thin px-3 py-1;
+}
+
+.markdown-document a {
+  @apply text-primary-200 underline underline-offset-4;
+}
+
+.markdown-document a:hover {
+  @apply text-primary-100;
+}
+
+.markdown-document code {
+  @apply mr-1;
+}

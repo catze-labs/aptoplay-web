@@ -28,6 +28,7 @@
     "recoil": "^0.7.6",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
+    "uuidv4": "^6.2.13",
     "wagmi": "^0.10.6"
   },
   "devDependencies": {

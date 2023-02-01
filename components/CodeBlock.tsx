@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export interface CodeBlockProps {
   code: string;
-  onCopy: () => void;
+  onCopy?: () => void;
 }
 
 const CodeBlock: React.FC<CodeBlockProps> = ({ code = " ", onCopy }) => {
@@ -13,7 +13,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ code = " ", onCopy }) => {
 
   const handleClick = useCallback(async () => {
     await navigator.clipboard.writeText(code);
-    onCopy();
+    onCopy?.();
     setCopied(true);
     setTimeout(() => {
       setCopied(false);

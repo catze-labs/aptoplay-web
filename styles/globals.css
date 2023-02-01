@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.h-nav {
+  height: 100px;
+}
+
+.h-content {
+  min-height: calc(100vh - 100px);
+}
+
 body {
   @apply bg-gray-dark text-white;
 }

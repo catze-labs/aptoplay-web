@@ -7,7 +7,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="w-full min-h-screen flex flex-col">
       <Menu />
-      <div>{children}</div>
+      <div
+        style={{
+          minHeight: "calc(100vh - 100px)",
+        }}
+      >
+        {children}
+      </div>
     </div>
   );
 };

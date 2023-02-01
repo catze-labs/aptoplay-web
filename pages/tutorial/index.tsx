@@ -1,4 +1,4 @@
 export {
   default,
   getServerSideProps,
-} from "@/features/Tutorial/pages/ConfigPage";
+} from "@/features/Tutorial/pages/TutorialPage";

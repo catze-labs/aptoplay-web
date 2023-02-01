@@ -22,7 +22,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ code = " ", onCopy }) => {
 
   return (
     <div className="relative">
-      <pre className="block py-2 px-4">{code}</pre>
+      <pre className="block py-2 px-4 overflow-x-auto">{code}</pre>
       <Button
         className="w-8 absolute top-0.5 right-0.5 rounded-full"
         onClick={handleClick}

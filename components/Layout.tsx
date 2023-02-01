@@ -10,6 +10,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <div
         style={{
           minHeight: "calc(100vh - 100px)",
+          padding: "20px 0",
         }}
       >
         {children}

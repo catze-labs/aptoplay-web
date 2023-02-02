@@ -9,7 +9,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <Menu />
       <div
         style={{
-          minHeight: "calc(100vh - 100px)",
+          minHeight: "100vh",
           padding: "20px 0",
         }}
       >

@@ -6,7 +6,7 @@ export interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="flex justify-center items-center h-content">
+    <div className="flex justify-center items-center h-screen">
       <div className="flex flex-col lg:flex-row gap-9 px-5">{children}</div>
     </div>
   );

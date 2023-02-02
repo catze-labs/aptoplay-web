@@ -1,5 +1,6 @@
 import Container from "@/components/Container";
 import { NextPage } from "next";
+import MainVisual from "../components/MainVisual";
 
 export function getServerSideProps() {
   return {
@@ -10,7 +11,7 @@ export function getServerSideProps() {
 const LandingPage: NextPage = () => {
   return (
     <div>
-      <Container></Container>
+      <MainVisual />
     </div>
   );
 };

@@ -15,6 +15,10 @@ that currently exist for game developers are often lacking and do not provide a 
 
 ```bash
 $ npm install aptoplay-core
+
+# OR
+
+$ yarn add aptoplay-core
 ```
 
 This website is a demo that provides tutorials and information about the aptoplay-core library used by Aptoplay. Through this demo, users can learn about the following:
@@ -25,7 +29,7 @@ This website is a demo that provides tutorials and information about the aptopla
 
 The goal of this website is to provide a better developer experience (DX) for the integration of Aptos-Gaming, and more features will be added through ongoing updates.
 
-f you encounter any bugs or areas that need improvement, please [create an issue](https://github.com/catze-labs/aptoplay-web/issues/new). We will do our best to assist with your issue reporting.
+If you encounter any bugs or areas that need improvement, please [create an issue](https://github.com/catze-labs/aptoplay-web/issues/new). We will do our best to assist with your issue reporting.
 
 
 ## Website Structure

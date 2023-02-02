@@ -1,17 +1,15 @@
 ![image](https://user-images.githubusercontent.com/65929678/216216243-440bcb5c-5052-4946-9cad-47a98842e363.png)
 
-
 [Aptos Seoul Hack 2023](https://aptosfoundation.org/events/seoul-hack-2023) Buidl
 
 # APTOPLAY Tutorial Web
 
 > Effortless Integration, Seamless Experience in Aptos gaming solutions for game builders
 
-The problem we aim to solve is the effortless integration of blockchain technology into gaming. Game developers are often unable 
-to take full advantage of the benefits that blockchain technology offers due to the complex and unfriendly solutions that currently exist. 
-This has resulted in a barrier for many game developers and has limited the potential for Web3 games. Additionally, the tools 
+The problem we aim to solve is the effortless integration of blockchain technology into gaming. Game developers are often unable
+to take full advantage of the benefits that blockchain technology offers due to the complex and unfriendly solutions that currently exist.
+This has resulted in a barrier for many game developers and has limited the potential for Web3 games. Additionally, the tools
 that currently exist for game developers are often lacking and do not provide a user-friendly experience.
-
 
 ```bash
 $ npm install aptoplay-core
@@ -31,6 +29,11 @@ The goal of this website is to provide a better developer experience (DX) for th
 
 If you encounter any bugs or areas that need improvement, please [create an issue](https://github.com/catze-labs/aptoplay-web/issues/new). We will do our best to assist with your issue reporting.
 
+## Storybook
+
+[Link](https://63d783134ad22887d603e62b-ygwrfdhsui.chromatic.com/)
+
+storybook that collects components used in the tutorial of APTOPLAY Web.
 
 ## Website Structure
 

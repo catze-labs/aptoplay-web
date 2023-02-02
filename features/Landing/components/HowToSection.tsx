@@ -13,7 +13,7 @@ const HowToSection = () => {
   return (
     <Section>
       <Container className="min-h-screen flex flex-col justify-center items-center">
-        <div className=" w-full flex flex-col gap-5 items-center pb-10 border-b">
+        <div className=" w-full flex flex-col gap-5 items-center pb-10 border-b border-gray">
           <h2 className="text-primary-200">
             Try App-To-Play powered by AptoPlay
           </h2>
@@ -28,8 +28,8 @@ const HowToSection = () => {
             </Button>
           </div>
         </div>
-        <div className="p-2.5 flex justify-center xl:justify-between xl:w-full gap-5 mt-10 flex-wrap xl:flex-nowrap w-[320px]">
-          <div className="xl:flex-1 w-full flex flex-col p-5 bg-gray rounded gap-5">
+        <div className="p-2.5 flex justify-center xl:justify-between xl:w-full gap-5 mt-10 flex-wrap xl:flex-nowrap">
+          <div className="w-[320px] xl:flex-1 flex flex-col p-5 bg-gray rounded gap-5">
             <img
               className="mx-auto"
               src="/assets/howto/step1.png"
@@ -54,7 +54,7 @@ const HowToSection = () => {
               </Button>
             </div>
           </div>
-          <div className="xl:flex-1 w-fit flex flex-col p-5 bg-gray rounded gap-5">
+          <div className="w-[320px] xl:flex-1 flex flex-col p-5 bg-gray rounded gap-5">
             <img
               className="mx-auto"
               src="/assets/howto/step2.png"
@@ -69,7 +69,7 @@ const HowToSection = () => {
             </p>
             <Button onClick={() => router.push("/signup")}>Sign up</Button>
           </div>
-          <div className="xl:flex-1 w-fit flex flex-col p-5 bg-gray rounded gap-5">
+          <div className="w-[320px] xl:flex-1 flex flex-col p-5 bg-gray rounded gap-5">
             <img
               className="mx-auto"
               src="/assets/howto/step3.png"
@@ -83,7 +83,7 @@ const HowToSection = () => {
               saved in game backend automatically.
             </p>
           </div>
-          <div className="xl:flex-1 w-fit flex flex-col p-5 bg-gray rounded gap-5">
+          <div className="w-[320px] xl:flex-1 w-fit flex flex-col p-5 bg-gray rounded gap-5">
             <img
               className="mx-auto"
               src="/assets/howto/step4.png"

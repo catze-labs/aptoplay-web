@@ -21,15 +21,16 @@ const Button: React.FC<ButtonProps> = ({
     as,
     {
       className: clsx([
-        "flex items-center justify-center w-full disabled:cursor-not-allowed disabled:bg-gray",
+        "flex items-center justify-center w-full cursor-pointer ",
         variant === "primary" &&
-          `bg-primary-200 px-5 py-2.5 text-black hover:underline hover:underline-offset-4`,
+          `bg-primary-300 px-5 py-2.5 text-white hover:bg-primary-200`,
         variant === "secondary" &&
-          `bg-transparent px-5 py-2.5 border border-white text-white bg-gray-dark hover:border-primary-200 hover:text-primary-200`,
+          `bg-transparent px-5 py-2.5 border border-white text-primary-400 hover:border-primary-200 hover:text-primary-200`,
         variant === "ghost" &&
           `bg-transparent px-5 py-2.5 text-white hover:bg-[rgba(255,255,255,0.1)] hover:text-primary-200`,
         variant === "icon" &&
           `bg-transparent p-1.5 aspect-square hover:bg-[rgba(255,255,255,0.1)] text-primary-100`,
+        "disabled:cursor-not-allowed disabled:bg-gray",
         className,
       ]),
       ...props,

@@ -38,7 +38,7 @@ const DocLayout: React.FC<DocLayoutProps> = ({
             <Button
               className="w-fit"
               variant="secondary"
-              onClick={() => router.push("/")}
+              onClick={() => router.push(`./${page - 1}`)}
             >
               Prev
             </Button>

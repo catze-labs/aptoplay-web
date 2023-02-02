@@ -96,7 +96,7 @@ const HowToSection = () => {
               Try tutorial after playing game demo. You can mint your game data
               to APTOS ecosystem through AptoPlay.
             </p>
-            <Button onClick={() => router.push("/tutorial")}>
+            <Button onClick={() => router.push("/tutorial/1")}>
               Try tutorial
             </Button>
           </div>

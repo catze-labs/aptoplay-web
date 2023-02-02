@@ -30,7 +30,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ title, code = " ", onCopy }) => {
           !title ? "pt-2" : "pt-10",
         ])}
       >
-        {code}
+        {code || " "}
       </pre>
       {title && (
         <p className="text-white absolute top-2 left-3 font-mono font-bold">

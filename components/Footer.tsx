@@ -13,7 +13,7 @@ const Footer = () => {
           <Logo width={250} />
           <div className="flex flex-wrap gap-4 xl:gap-10 pt-10 pb-10 xl:pb-0">
             <Button
-              onClick={() => router.push("/tutorial")}
+              onClick={() => router.push("/tutorial/1")}
               variant="secondary"
               className="w-fit bg-black"
             >

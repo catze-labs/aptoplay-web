@@ -31,7 +31,7 @@ const LibrarySection = () => {
           <Button
             variant="primary"
             className="w-fit"
-            onClick={() => router.push("/tutorial")}
+            onClick={() => router.push("/tutorial/1")}
           >
             Tutorial
           </Button>

@@ -1,8 +1,38 @@
-# next-tailwind-recoil-template
+![image](https://user-images.githubusercontent.com/65929678/216216243-440bcb5c-5052-4946-9cad-47a98842e363.png)
 
-This is for template repository for using below.
 
-## 1. Library
+# APTOPLAY Tutorial Web
+
+> Effortless Integration, Seamless Experience in Aptos gaming solutions for game builders
+
+The problem we aim to solve is the effortless integration of blockchain technology into gaming. Game developers are often unable 
+to take full advantage of the benefits that blockchain technology offers due to the complex and unfriendly solutions that currently exist. 
+This has resulted in a barrier for many game developers and has limited the potential for Web3 games. Additionally, the tools 
+that currently exist for game developers are often lacking and do not provide a user-friendly experience.
+
+
+```bash
+$ npm install aptoplay-core
+```
+
+This website is a demo that provides tutorials and information about the aptoplay-core library used by Aptoplay. Through this demo, users can learn about the following:
+
+- Installation and configuration of aptoplay
+- Interaction with Playfab
+- Use cases through interaction with the Aptos chain.
+
+The goal of this website is to provide a better developer experience (DX) for the integration of Aptos-Gaming, and more features will be added through ongoing updates.
+
+f you encounter any bugs or areas that need improvement, please [create an issue](https://github.com/catze-labs/aptoplay-web/issues/new). We will do our best to assist with your issue reporting.
+
+
+## Website Structure
+
+- Landing Page: The demo of Aptoplay provides example games. You can download the game in the final section.
+- About Page: A page that provides more information about Aptoplay.
+- Tutorial Page: A page that provides tutorials for the aptoplay-core library we provide.
+
+## Libraries used in this demo
 
 - React18
 - Next.js : 12.3.1
@@ -12,7 +42,7 @@ This is for template repository for using below.
 - React-Query v3
 - Stroybook
 
-## 2. Structures
+## Structures in this demo
 
 Feature based file system with concerns of serverless paradigm.
 
@@ -40,11 +70,3 @@ src/
       ├─ services.ts # logics, process entity...
       └─ controllers.ts # Controller
 ```
-
-## 3. Types
-
-Global type for window (For using web3 third-party method; Such as Klaytn, Metamask, etc)
-
-## 4. Etc
-
-- [herosicon](https://heroicons.com/) : useful icons

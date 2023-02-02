@@ -12,7 +12,7 @@ const HowToSection = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col justify-center items-center">
+      <Container className="min-h-screen flex flex-col justify-center items-center">
         <div className=" w-full flex flex-col gap-5 items-center pb-10 border-b">
           <h2 className="text-primary-200">
             Try App-To-Play powered by AptoPlay
@@ -28,7 +28,7 @@ const HowToSection = () => {
             </Button>
           </div>
         </div>
-        <div className="p-2.5 flex justify-center xl:justify-between xl:w-full gap-5 mt-10 flex-wrap xl:flex-nowrap">
+        <div className="p-2.5 flex justify-center xl:justify-between xl:w-full gap-5 mt-10 flex-wrap xl:flex-nowrap w-[320px]">
           <div className="xl:flex-1 w-full flex flex-col p-5 bg-gray rounded gap-5">
             <img
               className="mx-auto"

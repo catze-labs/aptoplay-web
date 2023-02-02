@@ -1,6 +1,8 @@
 ![image](https://user-images.githubusercontent.com/65929678/216216243-440bcb5c-5052-4946-9cad-47a98842e363.png)
 
 
+[Aptos Seoul Hack 2023](https://aptosfoundation.org/events/seoul-hack-2023) Buidl
+
 # APTOPLAY Tutorial Web
 
 > Effortless Integration, Seamless Experience in Aptos gaming solutions for game builders

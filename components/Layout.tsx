@@ -1,13 +1,16 @@
 import { ComponentProps } from "react";
 import Menu from "./Menu";
 
-interface LayoutProps extends ComponentProps<"div"> {}
+interface LayoutProps extends ComponentProps<"div"> {
+  snap?: boolean;
+}
 
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout: React.FC<LayoutProps> = ({ snap, children }) => {
   return (
     <div className="w-full min-h-screen flex flex-col">
       <Menu />
       <div
+        className={snap ? "snap-y snap-mandatory" : ""}
         style={{
           minHeight: "100vh",
           padding: "20px 0",

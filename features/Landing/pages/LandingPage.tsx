@@ -1,5 +1,7 @@
 import Container from "@/components/Container";
+import Layout from "@/components/Layout";
 import { NextPage } from "next";
+import HowToSection from "../components/HowToSection";
 import LibrarySection from "../components/LibrarySection";
 import MainVisual from "../components/MainVisual";
 
@@ -11,10 +13,11 @@ export function getServerSideProps() {
 
 const LandingPage: NextPage = () => {
   return (
-    <div>
+    <>
       <MainVisual />
       <LibrarySection />
-    </div>
+      <HowToSection />
+    </>
   );
 };
 

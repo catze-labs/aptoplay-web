@@ -1,4 +1,5 @@
 import { ComponentProps } from "react";
+import Footer from "./Footer";
 import Menu from "./Menu";
 
 interface LayoutProps extends ComponentProps<"div"> {
@@ -18,6 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ snap, children }) => {
       >
         {children}
       </div>
+      <Footer />
     </div>
   );
 };

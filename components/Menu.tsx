@@ -37,6 +37,7 @@ const Menu: React.FC<MenuProps> = () => {
             <Button
               onClick={() => {
                 setAuth({ sessionTicket: "" });
+                router.push("/login");
               }}
               variant="secondary"
               className="bg-transparent border-primary-100"

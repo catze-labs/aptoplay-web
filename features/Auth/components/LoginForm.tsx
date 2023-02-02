@@ -17,7 +17,7 @@ const LoginForm: React.FC = () => {
     ({ sessionTicket }) => {
       setAuth({ sessionTicket });
 
-      router.push("/");
+      router.push("/tutorial/1");
     },
     (err) => {
       console.log(err);

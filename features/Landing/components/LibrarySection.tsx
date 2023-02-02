@@ -40,7 +40,7 @@ const LibrarySection = () => {
             className="bg-black text-white w-fit"
             onClick={() => router.push("/about")}
           >
-            What os <span className="text-primary-200">APTOPLAY?</span>
+            What is <span className="text-primary-200">APTOPLAY?</span>
           </Button>
         </div>
       </Container>

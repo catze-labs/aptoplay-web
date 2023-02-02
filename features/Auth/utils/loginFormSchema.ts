@@ -1,13 +1,13 @@
-import * as Yup from 'yup'
+import * as Yup from "yup";
 
 const loginSchema = Yup.object({
-  Email: Yup.string().email().required(),
-  Password: Yup.string().required(),
-})
+  email: Yup.string().email().required(),
+  password: Yup.string().required(),
+});
 
 /**
  * Infer the type of the values from the validation schema
  */
-export type LoginFormData = Yup.InferType<typeof loginSchema>
+export type LoginFormData = Yup.InferType<typeof loginSchema>;
 
-export default loginSchema
+export default loginSchema;

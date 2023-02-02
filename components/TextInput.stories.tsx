@@ -36,6 +36,6 @@ ErrorCase.args = {
   type: "password",
   placeholder: "Placeholder",
   value: "Test Value",
-  label: "Password",
+  label: "password",
   error: "Invalid password",
 };

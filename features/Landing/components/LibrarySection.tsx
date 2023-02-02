@@ -18,7 +18,7 @@ const LibrarySection = () => {
             created by developers for developers
           </h1>
           <p className="subtitle-big text-left xl:text-center">
-            We provide Our library through NPM. <br />
+            We provide our library through NPM. <br />
             Join your project into the Aptos ecosystem using this following
             command line:
           </p>

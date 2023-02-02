@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import CodeRunner from "@/components/CodeRunner";
 import DocumentBox from "@/components/DocumentBox";
+import WalletConnect from "@/features/Wallet/components/WalletConnect";
 import { NextPage } from "next";
 import { useState } from "react";
 import Layout from "../components/Layout";
@@ -20,7 +21,7 @@ const TutorialPage: NextPage = () => {
 
   return (
     <Layout>
-      <div className="md:w-[440px] flex flex-col gap-6">
+      <div className="md:w-[600px] flex flex-col gap-6">
         <DocumentBox>{markdown || "Loading..."}</DocumentBox>
         <div className="flex justify-between">
           <Button
@@ -64,6 +65,7 @@ const TutorialPage: NextPage = () => {
           language="bash"
         />
         <CodeRunner code="npm install @supabase/supabase-js" title="Example" />
+        <WalletConnect />
       </div>
     </Layout>
   );

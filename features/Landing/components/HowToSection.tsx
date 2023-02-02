@@ -64,7 +64,7 @@ const HowToSection = () => {
             />
             <h3 className="subtitle">Access</h3>
             <p className="min-h-[58px]">
-              Please sign up before trying demo.Our demo requires registered
+              Please sign up before trying demo. Our demo requires registered
               account stored in game backend.
             </p>
             <Button onClick={() => router.push("/signup")}>Sign up</Button>

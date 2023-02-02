@@ -14,14 +14,63 @@ const queryClient = new QueryClient({
   },
 });
 
+import {
+  WalletProvider,
+  HippoWalletAdapter,
+  AptosWalletAdapter,
+  HippoExtensionWalletAdapter,
+  MartianWalletAdapter,
+  FewchaWalletAdapter,
+  PontemWalletAdapter,
+  SpikaWalletAdapter,
+  RiseWalletAdapter,
+  FletchWalletAdapter,
+  TokenPocketWalletAdapter,
+  ONTOWalletAdapter,
+  BloctoWalletAdapter,
+  SafePalWalletAdapter,
+  FoxWalletAdapter,
+  CloverWalletAdapter,
+  SpacecyWalletAdapter,
+} from "@manahippo/aptos-wallet-adapter";
+
+const wallets = [
+  new HippoWalletAdapter(),
+  new MartianWalletAdapter(),
+  new AptosWalletAdapter(),
+  new FewchaWalletAdapter(),
+  new HippoExtensionWalletAdapter(),
+  new PontemWalletAdapter(),
+  new SpikaWalletAdapter(),
+  new RiseWalletAdapter(),
+  new FletchWalletAdapter(),
+  new TokenPocketWalletAdapter(),
+  new ONTOWalletAdapter(),
+  new BloctoWalletAdapter({
+    bloctoAppId: "6d85f56e-5f2e-46cd-b5f2-5cf9695b4d46",
+  }) /** Must provide bloctoAppId **/,
+  new SafePalWalletAdapter(),
+  new FoxWalletAdapter(),
+  new CloverWalletAdapter(),
+  new SpacecyWalletAdapter(),
+];
+
 function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <RecoilRoot>
         <QueryClientProvider client={queryClient}>
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
+          <WalletProvider
+            wallets={wallets}
+            autoConnect={false}
+            onError={(error: Error) => {
+              console.log("Handle Error Message", error);
+            }}
+          >
+            <Layout>
+              <Component {...pageProps} />
+            </Layout>
+          </WalletProvider>
         </QueryClientProvider>
       </RecoilRoot>
     </>

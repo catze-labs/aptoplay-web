@@ -4,16 +4,33 @@ import loginSchema from "@/features/Auth/utils/loginFormSchema";
 import TextInput from "@/components/TextInput";
 import Button from "@/components/Button";
 import { useRouter } from "next/router";
+import { useLogin } from "@/requests/auth";
+import { useRecoilState } from "recoil";
+import { authState } from "@/states/auth";
 
 const LoginForm: React.FC = () => {
   const router = useRouter();
 
-  const { register, handleSubmit } = useForm({
+  const [auth, setAuth] = useRecoilState(authState);
+
+  const { mutate, isLoading } = useLogin(
+    ({ sessionTicket }) => {
+      setAuth({ sessionTicket });
+
+      router.push("/");
+    },
+    (err) => {
+      console.log(err);
+      alert(err.message);
+    }
+  );
+
+  const { register, handleSubmit } = useForm<LoginPayload>({
     resolver: yupResolver(loginSchema),
   });
 
   const onSubmit = handleSubmit(async (formData) => {
-    console.log(formData);
+    mutate(formData);
   });
 
   return (
@@ -25,7 +42,7 @@ const LoginForm: React.FC = () => {
           autoComplete="email"
           type="email"
           id="email"
-          {...register("Email")}
+          {...register("email")}
         />
       </div>
       <div className="flex flex-col gap-1 ">
@@ -34,7 +51,7 @@ const LoginForm: React.FC = () => {
           autoComplete="current-password"
           type="password"
           id="password"
-          {...register("Password")}
+          {...register("password")}
         />
       </div>
       <div className="flex flex-col gap-3 mt-6">
@@ -45,6 +62,7 @@ const LoginForm: React.FC = () => {
           as="a"
           variant="secondary"
           type="button"
+          disabled={isLoading}
           onClick={() => router.push("/signup")}
         >
           Sign Up

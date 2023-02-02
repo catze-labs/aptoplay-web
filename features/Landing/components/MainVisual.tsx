@@ -61,7 +61,7 @@ const MainVisual = () => {
 
   return (
     <Section>
-      <Container className="min-h-screen flex flex-col xl:flex-row gap-10 xl:gap-0 justify-center items-center">
+      <Container className="flex flex-col xl:flex-row gap-10 xl:gap-0 justify-center items-center">
         <div className="order-2 xl:order-1 w-full xl:w-1/2 px-0 xl:px-10 flex flex-col gap-8">
           <h2 className="text-primary-200">
             Effortless Integration, Seamless Experience in Aptos gaming

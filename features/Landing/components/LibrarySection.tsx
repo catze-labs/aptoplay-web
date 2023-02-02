@@ -11,7 +11,7 @@ const LibrarySection = () => {
 
   return (
     <Section>
-      <Container className="min-h-screen flex flex-col justify-center items-center gap-[50px]">
+      <Container className="flex flex-col justify-center items-center gap-[50px]">
         <div className="flex flex-col gap-5">
           <h1 className="text-primary-200 text-left xl:text-center">
             AptoPlay offers a user-friendly interface, <br />

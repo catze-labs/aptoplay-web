@@ -12,7 +12,7 @@ const HowToSection = () => {
 
   return (
     <Section>
-      <Container className="min-h-screen flex flex-col justify-center items-center">
+      <Container className="flex flex-col justify-center items-center">
         <div className=" w-full flex flex-col gap-5 items-center pb-10 border-b">
           <h2 className="text-primary-200">
             Try App-To-Play powered by AptoPlay

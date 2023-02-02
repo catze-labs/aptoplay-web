@@ -8,7 +8,7 @@ const Section: React.FC<ComponentProps<"article">> = ({
 }) => {
   return (
     <article
-      className={clsx(["min-h-screen snap-center", className])}
+      className={clsx(["pt-[250px] pb-[120px] snap-center", className])}
       {...props}
     >
       {children}

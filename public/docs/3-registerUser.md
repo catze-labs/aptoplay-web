@@ -4,14 +4,6 @@
 
 `aptoplay-core` provides very easy method for user registration
 
-## Glossaries
-
-N/A
-
-## Pre-Requirements
-
-N/A
-
 ## How to use
 
 First of all, You have to receive a email and password of user.  
@@ -21,7 +13,7 @@ If you prepared, Let's do it.
 //...
 
 // Make a Aptoplay Object
-const aptoPlay = new AptoPlay('titleId', 'x-secret-key');
+const aptoPlay = new AptoPlay("titleId", "x-secret-key");
 
 // register function
 const registerResponse = await aptoPlay.registerUser(
@@ -34,19 +26,19 @@ const registerResponse = await aptoPlay.registerUser(
 username is optional function parameter.  
 If user doesn't specify, will be milliseconds of unix epoch string
 
-## Examples
+## Usage
 
 ```typescript
 // Your PlayFab Data
-const titleId: string = '1Q2W3';
-const xSecretKey: string = 'xdi29992mzp0dk38fhs33d984sdc...';
+const titleId: string = "1Q2W3";
+const xSecretKey: string = "xdi29992mzp0dk38fhs33d984sdc...";
 
 // Make a Aptoplay Object
 const aptoPlay = new AptoPlay(titleId, xSecretKey);
 
-const userEmail = 'example@example.com';
-const password = 'test_password';
-const username = 'username'; // optional
+const userEmail = "example@example.com";
+const password = "test_password";
+const username = "username"; // optional
 const registerResponse = await aptoPlay.registerUser(
   userEmail,
   password,
@@ -54,11 +46,7 @@ const registerResponse = await aptoPlay.registerUser(
 );
 ```
 
-### Parameter
-
-N/A
-
-### Result/Response
+## Result Example
 
 ```js
 {

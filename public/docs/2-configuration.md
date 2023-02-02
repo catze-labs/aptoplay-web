@@ -25,7 +25,7 @@ More Information about PlayFab, See [here](https://learn.microsoft.com/en-us/gam
 //...
 
 // Make a Aptoplay Object
-const aptoPlay = new AptoPlay('titleId', 'x-secret-key');
+const aptoPlay = new AptoPlay("titleId", "x-secret-key");
 
 // Confirm your AptoPlay Object returned correctly.
 console.log(aptoPlay.getTitleId()); // Your Title Id will be returned
@@ -36,8 +36,8 @@ console.log(aptoPlay.getXSecretKey()); // Your X-SECRET-KEY will be returned
 
 ```typescript
 // Your PlayFab Data
-const titleId: string = '1Q2W3';
-const xSecretKey: string = 'xdi29992mzp0dk38fhs33d984sdc...';
+const titleId: string = "1Q2W3";
+const xSecretKey: string = "xdi29992mzp0dk38fhs33d984sdc...";
 
 // Make a Aptoplay Object
 const aptoPlay = new AptoPlay(titleId, xSecretKey);
@@ -46,12 +46,3 @@ const aptoPlay = new AptoPlay(titleId, xSecretKey);
 console.log(aptoPlay.getTitleId());
 console.log(aptoPlay.getXSecretKey());
 ```
-
-### Parameter
-
-- titleId : Your PlayFab Title ID
-- xSecretKey : Your PlayFab Title X-SECRET-KEY
-
-### Result/Response
-
-N/A

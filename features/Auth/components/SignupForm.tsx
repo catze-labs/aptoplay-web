@@ -5,17 +5,13 @@ import Button from "@/components/Button";
 import { useRouter } from "next/router";
 import signupSchema from "../utils/signupFormSchema";
 import { useRegister } from "@/requests/auth";
-import { useSetRecoilState } from "recoil";
-import { authState } from "@/states/auth";
 
 const SignupForm: React.FC = () => {
-  const setAuth = useSetRecoilState(authState);
   const router = useRouter();
 
-  const { mutate, isLoading } = useRegister(
-    ({ sessionTicket }) => {
-      setAuth({ sessionTicket });
-      router.push("/");
+  const { mutate } = useRegister(
+    () => {
+      router.push("/login");
     },
     (err) => {
       console.log(err);

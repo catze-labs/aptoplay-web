@@ -45,7 +45,7 @@ const CodeRunner: React.FC<CodeRunnerProps> = ({
   }, [code]);
 
   return (
-    <article className="px-4 pt-2 pb-4 bg-black">
+    <article className="px-4 pt-2 pb-4 bg-black w-full">
       <div className="flex justify-between relative items-center mb-2">
         <h2 className="text-base font-medium text-primary-200">{title}</h2>
 

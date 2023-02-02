@@ -14,10 +14,12 @@ const LoginForm: React.FC = () => {
   const [auth, setAuth] = useRecoilState(authState);
 
   const { mutate, isLoading } = useLogin(
-    ({ sessionTicket }) => {
-      setAuth({ sessionTicket });
+    ({ sessionTicket, playFabId }) => {
+      setAuth({ sessionTicket, playFabId });
 
-      router.push("/tutorial/1");
+      const backStep = router.query.back;
+
+      router.push(`/tutorial/${backStep || 1}`);
     },
     (err) => {
       console.log(err);

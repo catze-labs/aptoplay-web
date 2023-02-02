@@ -14,7 +14,7 @@ const DocumentBox: React.FC<DocumentBoxProps> = ({
   return (
     <div
       className={clsx([
-        "markdown-document bg-[rgba(255,255,255,0.1)] px-6 py-8 mt-[100px]",
+        "markdown-document bg-[rgba(255,255,255,0.1)] px-6 py-6",
         className,
       ])}
       {...props}

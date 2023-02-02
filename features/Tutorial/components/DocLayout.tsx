@@ -66,7 +66,7 @@ const DocLayout: React.FC<DocLayoutProps> = ({
           )}
         </div>
       </div>
-      <div>{children}</div>
+      <div className="w-full xl:w-fit">{children}</div>
     </Layout>
   );
 };

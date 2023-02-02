@@ -18,15 +18,3 @@ $ npm install aptoplay-core
 
 $ yarn add aptoplay-core
 ```
-
-## Examples
-
-N/A
-
-### Parameter
-
-N/A
-
-### Result/Response
-
-N/A

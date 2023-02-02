@@ -3,6 +3,7 @@ import localStorageEffect from "@/states/localStorageEffect";
 
 export interface AuthState {
   sessionTicket: string;
+  playFabId?: string;
 }
 
 export const authStateKey = "aptoplay/auth";

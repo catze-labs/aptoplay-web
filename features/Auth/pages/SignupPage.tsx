@@ -11,7 +11,7 @@ export function getServerSideProps() {
 
 const SignupPage: NextPage = () => {
   return (
-    <Container className="flex justify-center items-center h-content">
+    <Container className="flex justify-center items-center h-screen pt-20">
       <Box>
         <SignupForm />
       </Box>

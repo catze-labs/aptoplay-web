@@ -10,7 +10,7 @@ const Menu: React.FC<MenuProps> = () => {
   const router = useRouter();
 
   return (
-    <nav className="h-[100px] bg-black w-full flex justify-center items-center sticky top-0 z-50">
+    <nav className="h-[100px] bg-black w-full flex justify-center items-center fixed top-0 z-50">
       <Container className="flex-1 flex justify-between items-center">
         <Link href="/">
           <a>

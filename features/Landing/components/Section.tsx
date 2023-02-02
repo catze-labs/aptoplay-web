@@ -7,7 +7,10 @@ const Section: React.FC<ComponentProps<"article">> = ({
   ...props
 }) => {
   return (
-    <article className={clsx(["min-h-screen", className])} {...props}>
+    <article
+      className={clsx(["min-h-screen snap-center", className])}
+      {...props}
+    >
       {children}
     </article>
   );

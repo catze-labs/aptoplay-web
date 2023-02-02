@@ -78,7 +78,7 @@ const WalletConnect = () => {
       )}
 
       {account && connected && (
-        <div className="w-[380px]">
+        <div className="w-full">
           <CodeBlock title="Account" code={JSON.stringify(account, null, 2)} />
         </div>
       )}
@@ -93,7 +93,7 @@ const WalletConnect = () => {
       )}
 
       {account && signResult && (
-        <div className="w-[380px]">
+        <div className="w-full">
           <CodeBlock
             title="Sign Message"
             code={JSON.stringify(signResult, null, 2)}
@@ -112,7 +112,7 @@ const WalletConnect = () => {
       )}
 
       {connected && fundResult && (
-        <div className="w-[380px]">
+        <div className="w-full">
           <CodeBlock
             title="Faucet Fund"
             code={JSON.stringify(fundResult, null, 2)}

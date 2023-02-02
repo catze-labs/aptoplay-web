@@ -3,6 +3,7 @@ import DocLayout from "@/features/Tutorial/components/DocLayout";
 import SignInRun from "../components/SignInRun";
 import SessionTicketValidationRun from "../components/SessionTicketValidationRun";
 import Statistics1Run from "../components/Statistics1Run";
+import MintingRun from "../components/MintingRun";
 
 const totalPage = 8;
 
@@ -60,7 +61,9 @@ const Steps = [
     docUrl="/docs/8-mintToSystemWallet.md"
     page={8}
     totalPage={totalPage}
-  />,
+  >
+    <MintingRun />
+  </DocLayout>,
 ];
 
 export default Steps;

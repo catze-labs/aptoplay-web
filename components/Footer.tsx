@@ -42,7 +42,7 @@ const Footer = () => {
             </Button>
           </div>
         </div>
-        <p className="text-right">© 2022 APTOPLAY. All rights reserved.</p>
+        <p className="text-right">© 2023 APTOPLAY. All rights reserved.</p>
       </Container>
     </footer>
   );

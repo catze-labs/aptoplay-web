@@ -24,7 +24,7 @@ const AboutPage: NextPage = () => {
 
       <section className="mt-28">
         <header className="pb-2.5 border-b text-center">
-          <h2 className="text-primary-100">ABOUT</h2>
+          <h2 className="text-[40px] text-primary-100">ABOUT</h2>
         </header>
         <div className="flex flex-col xl:flex-row">
           <div className="flex-1 px-6 xl:px-10 pt-20 xl:py-20">
@@ -94,7 +94,7 @@ const AboutPage: NextPage = () => {
 
       <section className="mt-24">
         <header className="pb-2.5 border-b text-center">
-          <h2 className="text-primary-100">ROADMAP</h2>
+          <h2 className="text-[40px] text-primary-100">ROADMAP</h2>
         </header>
         <div className="flex flex-col xl:flex-row">
           <div className="flex-1 px-6 xl:px-10 pt-20 xl:py-20">

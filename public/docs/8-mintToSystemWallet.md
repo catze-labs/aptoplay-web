@@ -19,7 +19,7 @@ Aptos Wallet : You should make a Aptos chain wallet use `Martian` or `Petra` chr
 ```typescript
 //...
 
-// Make a Aptoplay Object
+// Make an Aptoplay Object
 const aptoPlay = new AptoPlay(
   "TitleID",
   "X-SECRET-KEY",
@@ -43,7 +43,7 @@ const aptoPlay = new AptoPlay(
 
 // OR
 
-// Make a Aptoplay Object
+// Make an Aptoplay Object
 // If you not specify a Aptos node url and faucet url, environment default 'Devnet'
 const aptoPlay = new AptoPlay("TitleID", "X-SECRET-KEY");
 

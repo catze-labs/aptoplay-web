@@ -13,7 +13,7 @@
 ```typescript
 //...
 
-// Make a Aptoplay Object
+// Make an Aptoplay Object
 const aptoPlay = new AptoPlay("titleId", "x-secret-key");
 
 // register function

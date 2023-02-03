@@ -18,7 +18,7 @@ Game Statistics Data : Your unity game should be provide a user(player) statisti
 ```typescript
 //...
 
-// Make a Aptoplay Object
+// Make an Aptoplay Object
 const aptoPlay = new AptoPlay('titleId', 'x-secret-key');
 
 // Using statistic names

@@ -7,6 +7,9 @@ This example contain expose private key of wallet.
 
 _Don't expose your real product purpose wallet._
 
+This example use AptoPlay system wallet address.  
+If your production environment, please follow downward instruction with real data.
+
 ## Pre-Requirements
 
 Aptos Wallet : You should make a Aptos chain wallet use `Martian` or `Petra` chrome extension.

@@ -11,8 +11,8 @@ export function getServerSideProps() {
 
 const AboutPage: NextPage = () => {
   return (
-    <Container className="pt-40">
-      <div className="bg-black flex flex-col xl:flex-row justify-center items-center gap-20 p-10 xl:p-0 xl:h-[500px]">
+    <Container className="pt-40 px-10">
+      <div className="bg-black flex flex-col lg:flex-row justify-center items-center gap-20 p-10 lg:p-0 lg:h-[500px]">
         <img
           src="/assets/about-console.png"
           width={693}
@@ -26,7 +26,7 @@ const AboutPage: NextPage = () => {
         <header className="pb-2.5 border-b text-center">
           <h2 className="text-[40px] text-primary-100">ABOUT</h2>
         </header>
-        <div className="pt-40">
+        <div className="pt-40 px-6">
           <article>
             <h3 className="text-primary-100 font-medium mb-10">
               Executive Summary
@@ -49,7 +49,7 @@ const AboutPage: NextPage = () => {
               with the necessary tools.
             </p>
           </article>
-          <div className="flex flex-col xl:flex-row gap-12 py-40">
+          <div className="flex flex-col lg:flex-row gap-12 py-40">
             <article className="flex-1 mb-20">
               <h3 className="text-primary-100 font-medium mb-10">
                 Problem Statement
@@ -94,8 +94,8 @@ const AboutPage: NextPage = () => {
         <header className="pb-2.5 border-b text-center">
           <h2 className="text-[40px] text-primary-100">ROADMAP</h2>
         </header>
-        <div className="flex flex-col xl:flex-row">
-          <div className="flex-1 px-6 xl:px-10 pt-20 xl:py-20">
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex-1 px-6 lg:px-10 pt-20 lg:py-20">
             <article>
               <h3 className="text-primary-100 font-medium mb-10">
                 Project Roadmap
@@ -112,7 +112,7 @@ const AboutPage: NextPage = () => {
               </ol>
             </article>
           </div>
-          <div className="flex-1 px-6 xl:px-10 py-20">
+          <div className="flex-1 px-6 lg:px-10 py-20">
             <article>
               <h3 className="text-primary-100 font-medium mb-10">Conclusion</h3>
               <p className="subtitle-big mb-10">

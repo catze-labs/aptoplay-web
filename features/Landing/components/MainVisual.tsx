@@ -13,14 +13,14 @@ const MainVisual = () => {
       width: 86,
       height: 76,
       alt: "garnish",
-      className: "xl:top-[11px] xl:left-[82px]",
+      className: "lg:top-[11px] lg:left-[82px]",
     },
     {
       srcSet: "/assets/garnish/2.png 1x, /assets/garnish/2@2x.png 2x",
       width: 52,
       height: 65,
       alt: "garnish",
-      className: "xl:top-0 xl:right-[129px]",
+      className: "lg:top-0 lg:right-[129px]",
     },
     {
       srcSet: "/assets/garnish/3.png 1x, /assets/garnish/3@2x.png 2x",
@@ -61,24 +61,26 @@ const MainVisual = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col xl:flex-row gap-10 xl:gap-0 justify-center items-center">
-        <div className="order-2 xl:order-1 w-full xl:w-1/2 px-0 xl:px-10 flex flex-col gap-8">
-          <h2 className="text-primary-200">
-            Effortless Integration, Seamless Experience in Aptos gaming
-            solutions for game builders
+      <Container className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-center items-center">
+        <div className="order-2 lg:order-1 w-full lg:w-1/2 px-0 lg:px-10 flex flex-col gap-8">
+          <h2 className="text-primary-200 text-center lg:text-left">
+            Effortless Integration, <br className="block lg:hidden" />
+            Seamless Experience in Aptos gaming solutions{" "}
+            <br className="block lg:hidden" />
+            for game builders
           </h2>
-          <p className="subtitle-big">
-            Tools to help game developers achieve Web3 gaming success and player
-            satisfaction
+          <p className="subtitle-big text-center lg:text-left">
+            Tools to help game developers <br className="block lg:hidden" />
+            achieve Web3 gaming success and player satisfaction
           </p>
         </div>
         <img
-          className="block xl:hidden mx-auto"
+          className="block lg:hidden mx-auto"
           src="/assets/garnish/visual-mobile.png"
           width={570 / 2}
           height={340 / 2}
         />
-        <figure className="order-1 xl:order-2 hidden xl:block relative w-[300px] h-[179px] xl:w-[570px] xl:h-[340px] flex-0">
+        <figure className="order-1 lg:order-2 hidden lg:block relative w-[300px] h-[179px] lg:w-[570px] lg:h-[340px] flex-0">
           <img
             src="/assets/main-visual.png"
             width={570}

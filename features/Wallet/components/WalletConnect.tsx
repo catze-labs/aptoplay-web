@@ -88,7 +88,7 @@ const WalletConnect = () => {
           variant="secondary"
           onClick={() => sign("APTOPLAY SIGN MESSAGE", "APTOPLAY NONCE")}
         >
-          Sign Message
+          Sign Message <small>(Optional)</small>
         </Button>
       )}
 

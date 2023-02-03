@@ -17,28 +17,32 @@ const Footer = () => {
               variant="secondary"
               className="w-fit bg-black"
             >
-              Tutorial
+              <span className="text-white hover:text-primary-200">
+                Tutorial
+              </span>
             </Button>
             <Button
               onClick={() => router.push("/about")}
               variant="secondary"
               className="w-fit bg-black"
             >
-              What is APTOPLAY?
+              <span className="text-white hover:text-primary-200">
+                What is APTOPLAY?
+              </span>
             </Button>
             <Button
               onClick={() => router.push("/login")}
               variant="secondary"
               className="w-fit bg-black"
             >
-              Login
+              <span className="text-white hover:text-primary-200">Login</span>
             </Button>
             <Button
               onClick={() => router.push("/signup")}
               variant="secondary"
               className="w-fit bg-black"
             >
-              Sign up
+              <span className="text-white hover:text-primary-200">Sign up</span>
             </Button>
           </div>
         </div>

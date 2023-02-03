@@ -2,7 +2,7 @@
 
 ## Description
 
-aptoplay-core is TS library for simplify gaming development with Aptos Chain and PlayFab
+aptoplay-core is TS library simplifying game development with Aptos and PlayFab
 
 ## Pre-Requirements
 

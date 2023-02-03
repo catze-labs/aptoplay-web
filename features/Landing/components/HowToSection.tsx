@@ -11,7 +11,10 @@ const HowToSection = () => {
   return (
     <Section>
       <Container className="min-h-screen flex flex-col justify-center items-center">
-        <div className="w-full flex flex-col gap-5 items-center pb-10 border-b border-gray ">
+        <div
+          id="howto"
+          className="w-full flex flex-col gap-5 items-center pb-10 border-b border-gray "
+        >
           <h2 className="text-primary-200 text-center lg:text-left">
             Try App-To-Play
             <br className="block lg:hidden" /> powered by AptoPlay

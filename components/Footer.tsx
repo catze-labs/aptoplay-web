@@ -44,6 +44,15 @@ const Footer = () => {
             >
               <span className="text-white hover:text-primary-200">Sign up</span>
             </Button>
+            <Button
+              onClick={() => router.push("/#howto")}
+              variant="secondary"
+              className="w-fit bg-black"
+            >
+              <span className="text-white hover:text-primary-200">
+                How to Play
+              </span>
+            </Button>
           </div>
         </div>
         <p className="text-right">© 2023 APTOPLAY. All rights reserved.</p>

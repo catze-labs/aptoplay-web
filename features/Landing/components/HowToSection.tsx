@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Button from "@/components/Button";
-import CodeBlock from "@/components/CodeBlock";
 import Container from "@/components/Container";
-import clsx from "clsx";
 import { useRouter } from "next/router";
 
 import Section from "./Section";
@@ -13,7 +11,7 @@ const HowToSection = () => {
   return (
     <Section>
       <Container className="min-h-screen flex flex-col justify-center items-center">
-        <div className=" w-full flex flex-col gap-5 items-center pb-10 border-b border-gray">
+        <div className="w-full flex flex-col gap-5 items-center pb-10 border-b border-gray ">
           <h2 className="text-primary-200">
             Try App-To-Play powered by AptoPlay
           </h2>
@@ -28,7 +26,7 @@ const HowToSection = () => {
             </Button>
           </div>
         </div>
-        <div className="p-2.5 flex justify-center xl:justify-between xl:w-full gap-5 mt-10 flex-wrap xl:flex-nowrap">
+        <div className="p-2.5 flex justify-center xl:justify-between xl:w-full gap-5 mt-10 flex-wrap xl:flex-nowrap px-0 sm:px-12 lg:px-32 xl:px-0">
           <div className="w-[320px] xl:flex-1 flex flex-col p-5 bg-gray rounded gap-5">
             <img
               className="mx-auto"
@@ -83,7 +81,7 @@ const HowToSection = () => {
               saved in game backend automatically.
             </p>
           </div>
-          <div className="w-[320px] xl:flex-1 w-fit flex flex-col p-5 bg-gray rounded gap-5">
+          <div className="w-[320px] xl:flex-1 flex flex-col p-5 bg-gray rounded gap-5">
             <img
               className="mx-auto"
               src="/assets/howto/step4.png"

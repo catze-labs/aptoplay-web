@@ -13,16 +13,16 @@ const LibrarySection = () => {
     <Section>
       <Container className="flex flex-col justify-center items-center gap-[50px]">
         <div className="flex flex-col gap-5">
-          <h1 className="text-primary-200 text-left xl:text-center">
+          <h1 className="text-primary-200 text-center">
             AptoPlay offers a user-friendly interface, <br />
             created by developers for developers
           </h1>
-          <p className="subtitle-big text-left xl:text-center">
+          <p className="subtitle-big text-center">
             We provide our library through NPM. <br />
             Join your project into the Aptos ecosystem using this following
             command line:
           </p>
-          <div className="flex flex-col w-full max-w-[370px] mx-auto mt-8 xl:mt-0 gap-2">
+          <div className="flex flex-col w-full max-w-[370px] mx-auto mt-8 lg:mt-0 gap-2">
             <CodeBlock code={"$ npm install aptoplay-core"} />
             <CodeBlock code={"$ yarn add aptoplay-core"} />
           </div>

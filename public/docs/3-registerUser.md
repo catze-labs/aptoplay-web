@@ -6,13 +6,13 @@
 
 ## How to use
 
-First of all, You have to receive a email and password of user.  
-If you prepared, Let's do it.
+First of all, You have to receive the email and password of user.  
+If those are ready, Let's delve into user registration.
 
 ```typescript
 //...
 
-// Make a Aptoplay Object
+// Make an Aptoplay Object
 const aptoPlay = new AptoPlay("titleId", "x-secret-key");
 
 // register function
@@ -23,8 +23,8 @@ const registerResponse = await aptoPlay.registerUser(
 );
 ```
 
-username is optional function parameter.  
-If user doesn't specify, will be milliseconds of unix epoch string
+username is an optional function parameter.  
+If user doesn't specify, it will be milliseconds of unix epoch string
 
 ## Usage
 

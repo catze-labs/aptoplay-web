@@ -12,8 +12,9 @@ const HowToSection = () => {
     <Section>
       <Container className="min-h-screen flex flex-col justify-center items-center">
         <div className="w-full flex flex-col gap-5 items-center pb-10 border-b border-gray ">
-          <h2 className="text-primary-200">
-            Try App-To-Play powered by AptoPlay
+          <h2 className="text-primary-200 text-center lg:text-left">
+            Try App-To-Play
+            <br className="block lg:hidden" /> powered by AptoPlay
           </h2>
           <p className="subtitle-big">How to play AptoPlay demo</p>
           <p>NOTICE : Sign-up must be necessary before playing demo.</p>

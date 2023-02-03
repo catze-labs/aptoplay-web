@@ -5,7 +5,7 @@ const SessionTicketValidationRun = () => {
   const [runned, setRunned] = useState<boolean>(false);
 
   return (
-    <div className="flex flex-col w-full xl:w-[420px] gap-4">
+    <div className="flex flex-col gap-4">
       <CodeRunner
         title="Parameter"
         code={`aptoPlay.validateAndGetPlayFabIdBySessionTicket(\n  [sessionTicket]\n)`}

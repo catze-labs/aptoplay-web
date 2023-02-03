@@ -36,11 +36,12 @@ const LibrarySection = () => {
             Tutorial
           </Button>
           <Button
-            variant="primary"
-            className="bg-black text-white w-fit"
+            variant="secondary"
+            className="bg-black hover:bg-transparent text-white w-fit"
             onClick={() => router.push("/about")}
           >
-            What is <span className="text-primary-200">APTOPLAY?</span>
+            <span className="text-white">What is</span>{" "}
+            <span className="text-primary-200">APTOPLAY?</span>
           </Button>
         </div>
       </Container>

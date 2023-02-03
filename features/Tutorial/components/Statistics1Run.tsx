@@ -31,7 +31,7 @@ const Statistics1Run = () => {
   };
 
   return (
-    <div className="flex flex-col w-full xl:w-[420px] gap-4 ">
+    <div className="flex flex-col gap-4 ">
       <div className="flex justify-between items-center">
         {!sessionTicket && (
           <Button
@@ -66,8 +66,7 @@ const Statistics1Run = () => {
       {res && (
         <CodeRunner
           title="Result"
-          //   code={JSON.stringify(res, null, 2)}
-          code={JSON.stringify({ killMonsterCount: 2 }, null, 2)}
+          code={JSON.stringify(res, null, 2)}
           language="json"
           runnable={false}
         />

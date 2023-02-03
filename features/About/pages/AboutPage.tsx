@@ -26,33 +26,31 @@ const AboutPage: NextPage = () => {
         <header className="pb-2.5 border-b text-center">
           <h2 className="text-[40px] text-primary-100">ABOUT</h2>
         </header>
-        <div className="flex flex-col xl:flex-row">
-          <div className="flex-1 px-6 xl:px-10 pt-20 xl:py-20">
-            <article>
-              <h3 className="text-primary-100 font-medium mb-10">
-                Executive Summary
-              </h3>
-              <p className="subtitle-big mb-10">
-                A brief overview of the project, its goals, and the proposed
-                solution.
-              </p>
+        <div className="pt-40">
+          <article>
+            <h3 className="text-primary-100 font-medium mb-10">
+              Executive Summary
+            </h3>
+            <p className="subtitle-big mb-10">
+              A brief overview of the project, its goals, and the proposed
+              solution.
+            </p>
 
-              <p>
-                Our project aims to create a seamless and user-friendly
-                experience for game studios and developers in the Web3 space. By
-                providing tools that prioritize player experience and ease of
-                use, as well as integrating with popular game engines and
-                allowing for social login, we aim to empower developers to
-                create the best possible games. Additionally, we plan to develop
-                a fully on-chain gaming backend solution on Aptos as part of our
-                roadmap. Overall, our goal is to enable game studios to focus on
-                what they do best, creating great games, by removing any
-                friction and providing them with the necessary tools.
-              </p>
-            </article>
-          </div>
-          <div className="flex-1 px-6 xl:px-10 py-20">
-            <article className="mb-20">
+            <p>
+              Our project aims to create a seamless and user-friendly experience
+              for game studios and developers in the Web3 space. By providing
+              tools that prioritize player experience and ease of use, as well
+              as integrating with popular game engines and allowing for social
+              login, we aim to empower developers to create the best possible
+              games. Additionally, we plan to develop a fully on-chain gaming
+              backend solution on Aptos as part of our roadmap. Overall, our
+              goal is to enable game studios to focus on what they do best,
+              creating great games, by removing any friction and providing them
+              with the necessary tools.
+            </p>
+          </article>
+          <div className="flex flex-col xl:flex-row gap-12 py-40">
+            <article className="flex-1 mb-20">
               <h3 className="text-primary-100 font-medium mb-10">
                 Problem Statement
               </h3>
@@ -69,7 +67,7 @@ const AboutPage: NextPage = () => {
               </p>
             </article>
 
-            <article>
+            <article className="flex-1">
               <h3 className="text-primary-100 font-medium mb-10">
                 Proposed Solution
               </h3>

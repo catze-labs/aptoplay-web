@@ -55,7 +55,9 @@ const Steps = [
     docUrl="/docs/7-getGameStatisticsForNFTMetadata-2.md"
     page={7}
     totalPage={totalPage}
-  />,
+  >
+    <Statistics1Run />
+  </DocLayout>,
   <DocLayout
     key={1}
     docUrl="/docs/8-mintToSystemWallet.md"
